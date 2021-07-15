@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>林健一郎のportfolio</title>
+      <style>
+          /*共通部分*/
+          html {
+              font-size: 100%;
+          }
+          body {
+              font-family: "Yu Gosic Medium", "游ゴシック Medium", "游ゴシック体", "ヒラギノ角ゴ Pro W3, sans-serif";
+              line-height: 1.7;
+              color: #fff;
+          }
+          a {
+              text-decoration: none;
+          }
+          img {
+              max-width: 100%;
+          }
+          /*ヘッダー*/
+          .logo {
+              width: 210px;
+              margin-top: 25px;
+              font-family: HG正楷書体-PRO;
+          }
+         
+          .header {
+              display: flex;
+              justify-content: space-between;
+          }
+          .wrapper {
+              max-width: 1100px;
+              margin: 0 auto;
+              padding: 0 4%;
+          }
+          h1 {
+              color: fff;
+          }
+          .home {
+              color: #fff;
+              border-bottom: 1px #fff;
+          }
+          .home:hover {
+              color: #397ee6;
+          }
+
+          /*ホーム*/
+          .home-content {
+              text-align: center;
+              margin-top: 12%;
+          }
+          .home-content p {
+              font-size: 2rem;
+              margin: 10px 0 42px;
+              text-shadow: 4px 4px rgb(129, 169, 201);
+          }
+          h2 {
+              color: #fff;
+              text-shadow: 4px 4px rgb(129, 169, 201);
+          }
+          /*見出し*/
+          .page-title {
+              font-size: 3rem;
+              font-family: 'Philosopher' ,serif;
+              text-transform: uppercase;
+              font-weight: bolder;
+          }
+          /*ボタン*/
+          .button {
+            display: inline-block;
+            text-decoration: none;
+            color: #668ad8;
+            width: 120px;
+            height: 120px;
+            line-height: 120px;
+            border-radius: 50%;
+            border: solid 2px #668ad8;
+            text-align: center;
+            overflow: hidden;
+            font-weight: bold;
+            transition: .4s;
+            background: #b5c6e0;
+           }
+          .button:hover {
+              background: rgb(208, 223, 236);
+           }
+
+          /*大きな背景画像*/
+          .big-bg {
+              background-size: cover;
+              background-position: center top;
+              background-blend-mode:multiply;
+              background-color: rgb(217, 238, 212);
+          }
+          #home {
+              background-image: url(background_img/sea.jpg);
+              min-height: 100vh;
+          }
+          #home .page-title {
+              text-transform: none;
+          }
+          
+          @media (max-width: 600px) {
+          }
+          /*モバイル版*/
+          @media (max-width: 600px) {
+              .page-title {
+                  font-size: 2.5rem;
+              }
+              /*HOME*/
+              .home-content {
+                  margin-top: 20%;
+              }
+              .page-header {
+                  flex-direction: column;
+                  align-items: center;
+              }
+          }
+
+     </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+      <div id="home" class="big-bg">
+        <header class="header wrapper">
+            <h1 class="logo"><a href="index.html" class="home">TOP</a></h1>
+        </header>
+        
+        <div>
+
+
+
+        </div>
+
+        <div class="home-content wrapper">
+            <h2 class="page-title">KENICHIRO HAYASHI</h2>
+            <p class="page-title">Welcome!</p>
+            <a class="button" href="self-introduction1.html">ENTER</a>   
+        </div>
+
+      </div>
+       
+    </body>
